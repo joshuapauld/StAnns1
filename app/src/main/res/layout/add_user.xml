@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#304769"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="50dp">
+
+    <EditText
+        android:hint="Hall Ticket Number"
+        android:id="@+id/hall_ticket_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:inputType="textPersonName"
+        android:ems="@android:integer/status_bar_notification_info_maxnum"
+        android:background="#ffffff"
+        />
+    <EditText
+        android:hint="Name of the Student"
+        android:id="@+id/name_student"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:inputType="textPersonName"
+        android:ems="@android:integer/status_bar_notification_info_maxnum"
+        android:background="#ffffff"
+        /><EditText
+    android:hint="Contact Number"
+    android:id="@+id/contact_number"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:padding="10dp"
+    android:inputType="textPersonName"
+    android:ems="@android:integer/status_bar_notification_info_maxnum"
+    android:background="#ffffff"
+    />
+    <EditText
+    android:hint="Branch"
+        android:id="@+id/branch"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+    android:inputType="textPersonName"
+        android:ems="@android:integer/status_bar_notification_info_maxnum"
+        android:background="#ffffff"
+    />
+    <EditText
+    android:hint="Email id"
+        android:id="@+id/email_id"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+    android:inputType="textPersonName"
+        android:ems="@android:integer/status_bar_notification_info_maxnum"
+        android:background="#ffffff"
+    />
+    <EditText
+    android:hint="10th Marks"
+        android:id="@+id/ssc_marks"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+    android:inputType="textPersonName"
+        android:ems="@android:integer/status_bar_notification_info_maxnum"
+        android:background="#ffffff"
+    />
+    <EditText
+    android:hint="Inter"
+        android:id="@+id/inter"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+    android:inputType="textPersonName"
+        android:ems="@android:integer/status_bar_notification_info_maxnum"
+        android:background="#ffffff"
+    />
+    <EditText
+    android:hint="Degree Sem 1 Marks"
+        android:id="@+id/degree_sem_1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+    android:inputType="textPersonName"
+        android:ems="@android:integer/status_bar_notification_info_maxnum"
+        android:background="#ffffff"
+    />
+    <EditText
+    android:hint="Degree Sem 2 Marks"
+        android:id="@+id/degree_sem_2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+    android:inputType="textPersonName"
+        android:ems="@android:integer/status_bar_notification_info_maxnum"
+        android:background="#ffffff"
+    />
+    <EditText
+    android:hint="Degree Sem 3 Marks"
+        android:id="@+id/degree_sem_3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+    android:inputType="textPersonName"
+        android:ems="@android:integer/status_bar_notification_info_maxnum"
+        android:background="#ffffff"
+    />
+    <EditText
+    android:hint="Degree Sem 4 Marks"
+        android:id="@+id/degree_sem_4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+    android:inputType="textPersonName"
+        android:ems="@android:integer/status_bar_notification_info_maxnum"
+        android:background="#ffffff"
+    />
+    <Button
+        android:id="@+id/btn_register1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#f05924"
+        android:text="Register"
+        android:ems="@android:integer/status_bar_notification_info_maxnum"
+        />
+</LinearLayout>
